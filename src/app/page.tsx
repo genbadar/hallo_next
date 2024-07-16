@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          <code className={styles.code}>Welcome Dev 2</code>
+          <code className={styles.code}>Welcome Dev</code>
         </p>
         <div>
           <a
@@ -14,7 +14,6 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -46,7 +45,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Docs<span>&lt;-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
